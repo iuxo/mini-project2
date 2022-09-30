@@ -1,0 +1,16 @@
+CREATE TABLE IF NOT EXISTS "yelp_places" (
+"name" TEXT,
+  "address" TEXT,
+  "distance" INTEGER,
+  "rating" REAL,
+  "price" TEXT,
+  "number_ratings" INTEGER
+);
+CREATE TABLE IF NOT EXISTS "four_places" (
+"name" TEXT,
+  "address" TEXT,
+  "distance" INTEGER,
+  "rating" REAL,
+  "price" TEXT,
+  "number_ratings" INTEGER
+);
