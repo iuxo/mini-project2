@@ -3,17 +3,26 @@
 ### [Assignment](assignment.md)
 
 ## Project/Goals
-(fill in your description and goals here)
+Combining the Foursquare API with Yelp API to create my own database of restaurants near a location that are walkable (within 1000m).
+
+See which service has better coverage of the location.
+
+Calculated by finding the average number of reviews per restaurant. 
+
 
 ## Process
-### (your step 1)
-### (your step 2)
+### Getting familiar with the APIS
+Request the data through get requests with the parameters (name, location, distance, ratings, number of ratings, price)
+### Parsing
+Search through the relevant data and add that data to my own database using pandas package.
+
 
 ## Results
-(fill in what you found about the comparative quality of API coverage in your chosen area)
+Foursquare had a little better coverage averaging 10 more reviews per restaurant than Yelp in my area.
 
 ## Challenges 
-(discuss challenges you faced in the project)
+One missing negative sign from my code cause me to get empty results from the requests.
+Could not figure what was the problem until I finally saw that west longitude is negative.
 
 ## Future Goals
-(what would you do if you had more time?)
+Search through the documentation more to get rich data from both Foursquare and Yelp to get a more interesting table.
